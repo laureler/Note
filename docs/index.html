@@ -9,11 +9,22 @@
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
 <body>
+<nav>
+  <a href="#/">EN</a>
+  <a href="#/zh-cn/">中文</a>
+  <a href="#/zh-cn/">标签页1</a>
+  <a href="#/zh-cn/">标签页2</a>
+  <a href="#/git操作相关/">git操作相关</a>
+  <a href="#/zh-cn/">中文</a>
+  <a href="#/zh-cn/">中文</a>
+</nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
       name: '',
-      repo: ''
+      repo: '',
+      loadSidebar:true,
+      subMaxLevel:4
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
